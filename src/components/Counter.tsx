@@ -5,7 +5,10 @@ export function Counter() {
     
     return (
         <div>
-            <p>Click Counter: {count}</p>
+            <p>
+                Click Counter: 
+                <span style={{backgroundColor: `rgb(${count}, ${count}, ${count})`}}>{count}</span>
+            </p>
             <button onClick={(e) => setCount(count + 1)}>Click me</button>
         </div>
     )
