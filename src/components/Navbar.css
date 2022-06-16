@@ -1,0 +1,12 @@
+.Navbar {
+    background-color: bisque;
+    color: #111;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.Navbar ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
